@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B868D864-51DA-1340-A4E5-1EBDF37486E0" name="hojeni">
+<createdBy>Jindřich Šantrůček</createdBy>
+<createdTime>2024-03-03 09:47:17 UTC</createdTime>
+<ownerDesignName>projekt01</ownerDesignName>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_hnojeni" id="997E2794-25AD-0DA3-6B84-05E7A6249CA1">
+<createdBy>Jindřich Šantrůček</createdBy>
+<createdTime>2024-03-03 09:48:41 UTC</createdTime>
+<ownerDesignName>projekt01</ownerDesignName>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_hnojeni" id="8CBA015A-9B5B-E355-C4E4-72E8130343E4">
+<createdBy>Jindřich Šantrůček</createdBy>
+<createdTime>2024-03-03 09:48:51 UTC</createdTime>
+<ownerDesignName>projekt01</ownerDesignName>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pouzite_hnojivo" id="25C3657C-01E4-AA47-AD81-576C315C505F">
+<createdBy>Jindřich Šantrůček</createdBy>
+<createdTime>2024-03-03 09:49:10 UTC</createdTime>
+<ownerDesignName>projekt01</ownerDesignName>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="19EA7043-8F51-3146-059B-AB03AD98D2E9" name="hojeni PK">
+<createdBy>Jindřich Šantrůček</createdBy>
+<createdTime>2024-03-03 09:48:49 UTC</createdTime>
+<ownerDesignName>projekt01</ownerDesignName>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>997E2794-25AD-0DA3-6B84-05E7A6249CA1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

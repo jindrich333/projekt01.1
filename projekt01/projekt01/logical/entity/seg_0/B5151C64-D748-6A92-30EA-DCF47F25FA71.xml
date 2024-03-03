@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5151C64-D748-6A92-30EA-DCF47F25FA71" name="Strom">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>627FF6BC-2355-4143-EEC2-695DD3E46ED8</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_strom" id="B57B0975-0E88-015E-38C7-8696B7527907">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>F2D26D12-0B13-35B6-41EB-325072575196</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_vysazeni" id="C63C9012-F917-DF7E-93DF-D4785DE2A892">
+<createdBy>Jindřich Šantrůček</createdBy>
+<createdTime>2024-03-03 08:31:31 UTC</createdTime>
+<ownerDesignName>projekt01</ownerDesignName>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sad" id="3026738B-2A6D-BCCB-9BC4-75CFD3FBDCE6">
+<createdBy>Jindřich Šantrůček</createdBy>
+<createdTime>2024-03-03 08:35:18 UTC</createdTime>
+<generatorID>314A27BA-EEEB-B55B-912A-C33EA4625B1C</generatorID>
+<ownerDesignName>projekt01</ownerDesignName>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<referedAttribute>23A4C354-5231-C7A0-27F5-F2B38E17C444</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="103C42EC-4B7D-59B0-E64A-E5353BF96AEA" name="Strom PK">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>A30A38CF-0FB4-461A-6C75-515BA8098B55</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B57B0975-0E88-015E-38C7-8696B7527907</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

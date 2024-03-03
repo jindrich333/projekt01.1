@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57ACCD1C-144C-17D4-515D-DABCC26187F0" name="Postrik">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>9570295F-C823-17E0-863D-8F48784CBB66</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_postrik" id="645A3892-3A35-3727-F5B0-14A1D889F1F9">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>D686A923-EACB-624E-87FD-637812650225</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_postriku" id="2853C3EC-96BF-5595-977D-42F56D99DA8D">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>746C51CB-5A77-BD41-617A-2FF77EDAEE4F</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postrikova_latka" id="90425F76-0081-4111-3C91-4ADFEDB6B004">
+<createdBy>Jindřich Šantrůček</createdBy>
+<createdTime>2024-03-03 08:50:43 UTC</createdTime>
+<ownerDesignName>projekt01</ownerDesignName>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="98470C45-338E-1163-BF5C-90625A351F2D" name="Postrik PK">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>A0052F78-5411-89A0-725F-4780CB27BF59</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>645A3892-3A35-3727-F5B0-14A1D889F1F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

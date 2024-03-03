@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7292D74-CE69-143F-8075-A3EE60D7D496" name="Sad">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>821BA320-F32C-0714-AB8F-C0BDD8EF6D5A</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sad" id="23A4C354-5231-C7A0-27F5-F2B38E17C444">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>CBD1F649-073E-F419-CEE3-597528E2CF5D</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rozloha_sadu" id="21706F08-B947-45C2-8FCC-B0460BE27FC0">
+<createdBy>Jindřich Šantrůček</createdBy>
+<createdTime>2024-03-03 08:04:23 UTC</createdTime>
+<ownerDesignName>projekt01</ownerDesignName>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lokace_sadu" id="180F5F31-2F3C-61EC-416C-1D3408CFD3A2">
+<createdBy>Jindřich Šantrůček</createdBy>
+<createdTime>2024-03-03 08:04:38 UTC</createdTime>
+<ownerDesignName>projekt01</ownerDesignName>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pocet_stromu" id="B1A0DC16-25D0-BD21-551E-3CFCBD3D0D9D">
+<createdBy>Jindřich Šantrůček</createdBy>
+<createdTime>2024-03-03 08:32:16 UTC</createdTime>
+<ownerDesignName>projekt01</ownerDesignName>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B6AAD1F2-79B4-4603-5833-9352CC811AAD" name="Sad PK">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>A9C5B662-07CB-E817-20DD-CD13330805CB</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>23A4C354-5231-C7A0-27F5-F2B38E17C444</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

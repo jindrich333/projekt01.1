@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0F3123E-719C-11E5-138E-305008F520E9" name="Pracovnik">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>65008595-03E1-53D7-CE5B-FCFEC2D26F3F</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pracovnik" id="2BAEC271-DAF5-F4EE-B42C-997F50028588">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>BBC5EDA8-73BB-EBC4-5904-252E16E7A5F9</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jmeno" id="435C79FE-05B9-78E5-240C-1786328DC51A">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>070788AE-7378-223A-6D0E-1732F93240D9</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prijmeni" id="26775A02-D0D9-675C-48CB-A286FE164283">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>47FB9007-DB0A-1187-A2DF-256EFFE61AEB</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_narozeni" id="B0ED8CA5-27A3-35E3-D0A3-BC36EA7F0DA6">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>9A86B6AA-58C2-BD25-6F73-88721BF2EDCA</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa_bydliste" id="ED7326C5-B939-25D6-7875-93D335DB931A">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>651660D7-ACB2-24F0-2AD9-86F7F1F0275B</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bankovni_spojeni" id="8A88E8B0-4760-0DDB-86EC-C3B2AD7EC213">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>B92250F6-3368-8217-36BE-2FEE1E70A284</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="je_podilnik_druzstva" id="86E39338-1265-D450-9049-CE781FFA3498">
+<createdBy>Jindřich Šantrůček</createdBy>
+<createdTime>2024-03-03 10:06:06 UTC</createdTime>
+<ownerDesignName>projekt01</ownerDesignName>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="663DE326-4433-0DE7-9C52-BD10D2A40490" name="Pracovnik PK">
+<createdBy>Michael Szotkowski</createdBy>
+<createdTime>2024-03-02 21:55:49 UTC</createdTime>
+<ownerDesignName>projekt10</ownerDesignName>
+<importedID>F74F535D-3F5E-5F2C-7D84-EAF4F575CE4A</importedID>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2BAEC271-DAF5-F4EE-B42C-997F50028588</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

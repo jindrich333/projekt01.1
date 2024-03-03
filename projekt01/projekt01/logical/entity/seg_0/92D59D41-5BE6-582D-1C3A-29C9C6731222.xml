@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92D59D41-5BE6-582D-1C3A-29C9C6731222" name="sklizen_plodin">
+<createdBy>Jindřich Šantrůček</createdBy>
+<createdTime>2024-03-03 09:50:49 UTC</createdTime>
+<ownerDesignName>projekt01</ownerDesignName>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sklizne" id="7912F6F5-0039-ADBA-7393-DCC0DADFABE9">
+<createdBy>Jindřich Šantrůček</createdBy>
+<createdTime>2024-03-03 09:50:56 UTC</createdTime>
+<ownerDesignName>projekt01</ownerDesignName>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_sklizne" id="0474B9D5-F3FD-F2FA-466F-D3B540818E1E">
+<createdBy>Jindřich Šantrůček</createdBy>
+<createdTime>2024-03-03 09:51:10 UTC</createdTime>
+<ownerDesignName>projekt01</ownerDesignName>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sklizeno_plodin_kg" id="A5E1A76C-EDA2-76FF-472D-F53A2BFDBACD">
+<createdBy>Jindřich Šantrůček</createdBy>
+<createdTime>2024-03-03 09:51:20 UTC</createdTime>
+<ownerDesignName>projekt01</ownerDesignName>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="89ED3199-AEBA-1F88-C8A1-5929AE3B2696" name="sklizen PK">
+<createdBy>Jindřich Šantrůček</createdBy>
+<createdTime>2024-03-03 09:51:08 UTC</createdTime>
+<ownerDesignName>projekt01</ownerDesignName>
+<engineerTo>
+<item key="1D272C95-826D-7FFA-065E-B3330CEAC0FE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7912F6F5-0039-ADBA-7393-DCC0DADFABE9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
